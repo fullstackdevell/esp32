@@ -2,7 +2,7 @@
 
 This repository has code examples for ESP32 projects.
 
-The best part? Each example comes with a Wokwi diagram. Wokwi is a free online tool that lets you run and see your code work right in your web browser, so you don't even need your physical ESP32 board to start!
+Each example comes with a Wokwi diagram. Wokwi is a free online tool that lets you run and see your code work right in your web browser, so you don't even need your physical ESP32 board to start!
 
 ## lesson 1
 ### lesson1/blue_led.py
