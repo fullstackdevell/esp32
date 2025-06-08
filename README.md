@@ -14,8 +14,7 @@ This script shows you how to turn the onboard blue LED (GPIO2) on for one second
 This script shows you how to blink an external LED connected to GPIO22 once. A Wokwi diagram is provided for this lesson to guide you through the wiring of your LED and resistor to GPIO22 and GND.
 ![blink_led](/images/blink_led.png)
 
-### [`lesson1/while_true_blink.py`]
-(https://github.com/fullstackdevell/esp32/blob/main/lesson1/while_true_blink.py)
+### [`lesson1/while_true_blink.py`](https://github.com/fullstackdevell/esp32/blob/main/lesson1/while_true_blink.py)
 
 This script shows you how to make an external LED connected to GPIO22 blink continuously. This lesson uses the same Wokwi duagram as blink_led.py.
 
