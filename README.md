@@ -1,37 +1,15 @@
-# MicroPython Lesson 1: Basic Single LED Blink on ESP32
+# MicroPython ESP32 Projects
 
-This lesson shows the most fundamental way to control an LED using MicroPython on an ESP32 development board: turning it on, waiting, and turning it off a single time. We'll use the **onboard blue LED**, which is typically connected to **GPIO2**.
+This repository has code examples for ESP32 projects.
 
----
+The best part? Each example comes with a Wokwi diagram. Wokwi is a free online tool that lets you run and see your code work right in your web browser, so you don't even need your physical ESP32 board to start!
 
-## 1. Hardware Setup
+## lesson 1
+### lesson1/blue_led.py
 
-* **ESP32 Development Board:** An ESP32 DevKitC (or similar board with an ESP32-WROOM-32 module).
-* **USB Cable:** A USB-C cable to connect your ESP32 to your computer.
+This script shows you how to turn the onboard blue LED (GPIO2) on for one second and then turn it off. Since we're using the LED built into your ESP32, no external wiring diagram is needed for this lesson!
 
-No external wiring is needed for this lesson, as we're using the LED built right into your ESP32 board.
+## lesson1/blink_led.py
 
----
-
-## 2. The Code (`lesson1/blink_once.py`)
-
-The `blink_once.py` script is straightforward. It sets up GPIO2 as an output, turns the LED on for 1 second, then turns it off for 1 second. After this, the script completes execution.
-
-```python
-# from machine import Pin
-# from time import sleep
-
-# # This script turns the onboard blue LED on, waits, then turns it off.
-# # It runs once and then finishes.
-
-# # Initialize GPIO2 as an output pin for the LED.
-# # GPIO2 is commonly connected to the blue onboard LED on ESP32 DevKitC boards.
-# led = Pin(2, Pin.OUT)
-
-# # Turn the LED ON
-# led.on()
-# sleep(1) # Wait for 1 second
-
-# # Turn the LED OFF
-# led.off()
-# sleep(1) # Wait for 1 second before the script finishes
+This script shows you how to blink an external LED connected to GPIO22 once. A Wokwi diagram is provided for this lesson to guide you through the wiring of your LED and resistor to GPIO22 and GND.
+![blink_led](/images/blink_led.png)
