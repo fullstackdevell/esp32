@@ -5,7 +5,7 @@ This repository has code examples for ESP32 projects.
 Each example comes with a Wokwi diagram. Wokwi is a free online tool that lets you run and see your code work right in your web browser, so you don't even need your physical ESP32 board to start!
 
 ## lesson 1
-### ([`lesson1/blue_led.py`]([https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/lesson1/blue_led.py](https://github.com/fullstackdevell/esp32/blob/main/lesson1/blue_led.py)))
+### ([`lesson1/blue_led.py`]([https://github.com/fullstackdevell/esp32/blob/main/lesson1/blue_led.py])
 
 This script shows you how to turn the onboard blue LED (GPIO2) on for one second and then turn it off. Since we're using the LED built into your ESP32, no external wiring diagram is needed for this lesson!
 
