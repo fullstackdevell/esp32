@@ -3,7 +3,7 @@ import time
 
 # this code blinks an external LED connected to GPIO 22 once
 
-# mpremote connect /dev/tty.usbserial-210 run led_blink.py to run this script
+# mpremote connect /dev/tty.usbserial-210 run lesson1/led_blink.py to run this script
 
 # mpremote connect /dev/tty.usbserial-210 reset to stop current script
 

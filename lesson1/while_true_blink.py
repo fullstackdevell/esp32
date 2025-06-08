@@ -3,7 +3,7 @@ import time
 
 # This code blinks an external LED connected to GPIO 22 continuously
 
-# mpremote connect /dev/tty.usbserial-210 run while_true_blink.py to run this script
+# mpremote connect /dev/tty.usbserial-210 run lesson1/while_true_blink.py to run this script
 
 # mpremote connect /dev/tty.usbserial-210 reset to stop current script
 
