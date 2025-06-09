@@ -16,5 +16,5 @@ This script shows you how to blink an external LED connected to GPIO22 once. A W
 
 ### [`lesson1/while_true_blink.py`](https://github.com/fullstackdevell/esp32/blob/main/lesson1/while_true_blink.py)
 
-This script shows you how to make an external LED connected to GPIO22 blink continuously. This lesson uses the same Wokwi duagram as blink_led.py.
+This script shows you how to make an external LED connected to GPIO22 blink continuously. This lesson uses the same Wokwi diagram as blink_led.py.
 
